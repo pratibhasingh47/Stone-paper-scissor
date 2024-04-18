@@ -20,7 +20,7 @@ const drawGame = () => {
 
 /*Math.floor(Math.random()*10)---[from 0-9]*/
 
-const showWinner = (userwin,choiceid,comChoice) => {
+const showWinner = (userwin, choiceid, comChoice) => {
     if (userwin) {
         userScore++;
         Uscore.innerText = userScore;
@@ -48,7 +48,7 @@ const playGame = (choiceid) => {
         } else {
             userwin = comChoice === "rock" ? false : true;
         }
-        showWinner(userwin , choiceid,comChoice);
+        showWinner(userwin, choiceid, comChoice);
     }
 };
 

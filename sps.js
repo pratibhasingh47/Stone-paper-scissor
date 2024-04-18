@@ -18,7 +18,6 @@ const drawGame = () => {
     msg.style.backgroundColor = "#7c2e41";
 };
 
-/*Math.floor(Math.random()*10)---[from 0-9]*/
 
 const showWinner = (userwin,choiceid,comChoice) => {
     if (userwin) {
